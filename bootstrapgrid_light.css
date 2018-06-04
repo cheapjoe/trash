@@ -1,26 +1,26 @@
 html {
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 {
-  box-sizing: inherit;
+  box-sizing: inherit !important;
 }
 
 .container {
-  width: 100%; /* Container nimmt 100% der Breite ein */
-  margin: 0 auto; /* Container horizontal zentrieren */
+  width: 100% !important; /* Container nimmt 100% der Breite ein */
+  margin: 0 auto !important; /* Container horizontal zentrieren */
 }
 
 .row > div {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #128687;
-  font-family: Helvetica, Arial, sans-serif;
-  color: #fff;
-  text-align: center;
-  border: 2px solid #fff;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  background-color: #128687 !important;
+  font-family: Helvetica, Arial, sans-serif !important;
+  color: #fff !important;
+  text-align: center !important;
+  border: 2px solid #fff !important;
 }
 
 .row {
-  flex-wrap: wrap;
+  flex-wrap: wrap !important;
 }
