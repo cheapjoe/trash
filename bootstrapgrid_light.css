@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+{
+  box-sizing: inherit;
+}
+
+.container {
+  width: 100%; /* Container nimmt 100% der Breite ein */
+  margin: 0 auto; /* Container horizontal zentrieren */
+}
+
+.row > div {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #128687;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+  border: 2px solid #fff;
+}
+
+.row {
+  flex-wrap: wrap;
+}
